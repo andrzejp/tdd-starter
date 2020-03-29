@@ -13,9 +13,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-        <junit.jupiter.version>5.6.0</junit.jupiter.version>
+        <junit.jupiter.version>5.6.1</junit.jupiter.version>
         <assertj.version>3.15.0</assertj.version>
-        <mockito.version>3.2.4</mockito.version>
+        <mockito.version>3.3.3</mockito.version>
     </properties>
 
     <dependencies>
@@ -36,6 +36,13 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
             <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>

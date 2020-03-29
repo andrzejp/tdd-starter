@@ -1,4 +1,5 @@
 # TDD Starter
+![Java CI with Maven](https://github.com/andrzejp/tdd-starter/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 This is a Maven archetype for quickly bootstrapping a Java Maven project for TDD kata goodness.
 

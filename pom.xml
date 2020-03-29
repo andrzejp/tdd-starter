@@ -8,6 +8,10 @@
     <version>1.0</version>
     <packaging>maven-archetype</packaging>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <distributionManagement>
         <repository>
             <id>github</id>
