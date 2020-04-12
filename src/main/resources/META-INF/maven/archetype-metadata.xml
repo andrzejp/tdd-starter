@@ -11,8 +11,5 @@
         <fileSet filtered="true" packaged="true">
             <directory>src/test/java</directory>
         </fileSet>
-        <fileSet filtered="true" packaged="true">
-            <directory>src/test/resources</directory>
-        </fileSet>
     </fileSets>
 </archetype-descriptor>
