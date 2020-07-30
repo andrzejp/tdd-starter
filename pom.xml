@@ -10,6 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <archetype-packaging.version>3.2.0</archetype-packaging.version>
     </properties>
 
     <build>
@@ -17,8 +18,18 @@
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
                 <artifactId>archetype-packaging</artifactId>
-                <version>3.2.0</version>
+                <version>${archetype-packaging.version}</version>
             </extension>
         </extensions>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>${archetype-packaging.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 </project>
