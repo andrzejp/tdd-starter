@@ -11,11 +11,5 @@
         <fileSet packaged="true">
             <directory>src/test/java</directory>
         </fileSet>
-        <fileSet>
-            <directory>src/test/resources</directory>
-            <includes>
-                <include>**/*.properties</include>
-            </includes>
-        </fileSet>
     </fileSets>
 </archetype-descriptor>
