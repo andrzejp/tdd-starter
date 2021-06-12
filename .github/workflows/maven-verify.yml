@@ -2,7 +2,7 @@ name: Maven Verify
 
 on:
   workflow_run:
-    workflows: ["Build"]
+    workflows: ["Java CI with Maven"]
     types:
       - completed
 
