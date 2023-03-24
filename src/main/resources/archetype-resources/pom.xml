@@ -17,7 +17,7 @@
         <assertj.version>3.24.2</assertj.version>
         <mockito.version>5.2.0</mockito.version>
         <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
-        <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
+        <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
         <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
